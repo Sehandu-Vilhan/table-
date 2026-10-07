@@ -1,4 +1,6 @@
- /*  h1 {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*  h1 {
             
         text-align: center;
         background-color: rgb(21, 31, 215);
@@ -29,17 +31,20 @@
     
 }
 
-.x1{
-    text-align: center;
+.x1 {
+    display: inline-block;
+    padding: 10px 30px;
     background-color: aqua;
     border-radius: 20px;
-    padding: 10px;
-   padding-left: 10px;
-padding-right: 30px;
+}
+
+body {
+    text-align: center;
 }
 
 .x2{
     background-color: crimson;
+   font-family: "Playwrite CA Guides", cursive;
 }
 
 
