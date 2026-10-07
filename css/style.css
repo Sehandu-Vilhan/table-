@@ -40,11 +40,16 @@
     background-color: aqua;
     border-radius: 20px;
     font-family: "Edu QLD Hand", cursive;
+    margin-left: 800px;
 }
+
+
 
 body {
     text-align: center;
 }
+
+
 
 .x2{
     background-color: crimson;
@@ -53,10 +58,48 @@ body {
 
 
 #title {
+    display: inline;
+    border-radius: 10px;
     background-color: blueviolet;
+    text-align: center;
 }
 
 
-* {
-  background-color: rgb(225, 225, 225);
+
+
+
+.card{
+    
+    background-color: antiquewhite  ;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 10px solid black;
+
+}
+
+.card-img{
+    width: 500px;
+}
+
+.card-title{ 
+
+    display: inline-block;
+    background-color: rgb(34, 34, 141);
+    font-size: 51px;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.card-des{
+    text-align: center;
+    color: black;
+}
+
+.card-btn{
+
+   background-color: aqua;
+   border-radius: 10px;
+   margin-bottom: 10px;
 }
